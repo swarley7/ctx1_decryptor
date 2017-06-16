@@ -1,4 +1,4 @@
-# Citrix CTX1 decryptor
+# Citrix CTX1 decryptor - Ported from https://github.com/thorgul/ruby_utils/blob/master/password_utils.rb
 
 def decrypt_letters(letters, v = 0):
   f = (ord(letters[2]) - 1) & 0x0f
